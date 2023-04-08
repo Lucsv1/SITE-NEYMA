@@ -1,0 +1,175 @@
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    justify-content: space-between;
+    background-color: black;
+    padding: 18px 0;
+    box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.364);
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.logo{
+    height: 100px;
+}
+
+nav{
+    position:absolute;
+    top: 40px;
+    right: 0px;
+}
+
+nav li{
+    display: inline-flex;
+    margin: 9px 10px 0px 10px;
+}
+
+nav a{
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+nav a:hover{
+    color:yellow;
+    transition: 0.3s all;
+}
+
+nav a :active{
+    color: blue;
+}
+
+main{
+    margin-top: 80px;
+}
+
+main h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.times{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.times li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 4px solid black ;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.times li:hover{
+    border-color: yellow;
+    transition: 0.3s all;
+}
+
+.times li:active{
+    border-color: blue;
+}
+
+.times li:hover h2{
+    font-size: 35px;
+}
+
+.times a{
+    text-decoration: none;
+    color: black;
+}
+
+.times h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.times img{
+    height: 125px;
+    padding-top: 125px;
+    padding-top: 75px;
+}
+
+.santos{
+    background-color: white;
+    border: black;
+}
+
+.santos h2{
+    color: black;
+}
+
+.santos a:hover h2{
+    color: #FFF404
+}
+
+.barcelona{
+    background-color: #A50044;
+}
+
+.barcelona a:hover{
+    color: #EEBB00;
+}
+
+.psg{
+    background-color: #00285C;
+}
+
+.psg a:hover{
+    color: red;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.titulo h3{
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    color: yellow;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 0px;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+    text-decoration: none; 
+}
+
+footer a:hover img{
+    height: 45px;
+    width: 45px;
+}
+
